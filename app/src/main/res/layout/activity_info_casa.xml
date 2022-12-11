@@ -105,7 +105,7 @@
         app:layout_constraintTop_toTopOf="@+id/luz" />
 
     <TextView
-        android:id="@+id/terminacionLuz"
+        android:id="@+id/valorLuz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="#"
@@ -115,18 +115,6 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/luz"
         app:layout_constraintEnd_toEndOf="@+id/luz" />
-
-    <TextView
-        android:id="@+id/valorLuz"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="25dp"
-        android:textColor="@color/black"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/luz"
-        app:layout_constraintEnd_toStartOf="@+id/terminacionLuz" />
 
     <TextView
         android:id="@+id/lluvia"
@@ -153,7 +141,7 @@
         app:layout_constraintTop_toTopOf="@+id/lluvia" />
 
     <TextView
-        android:id="@+id/terminacionLluvia"
+        android:id="@+id/valorLluvia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="#"
@@ -163,18 +151,6 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/lluvia"
         app:layout_constraintEnd_toEndOf="@+id/lluvia" />
-
-    <TextView
-        android:id="@+id/valorLluvia"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="25dp"
-        android:textColor="@color/black"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/lluvia"
-        app:layout_constraintEnd_toStartOf="@+id/terminacionLluvia" />
 
     <TextView
         android:id="@+id/comida"
@@ -201,7 +177,7 @@
         app:layout_constraintTop_toTopOf="@+id/comida" />
 
     <TextView
-        android:id="@+id/terminacionComida"
+        android:id="@+id/valorComida"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="#"
@@ -211,18 +187,6 @@
         android:layout_marginBottom="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/comida"
         app:layout_constraintEnd_toEndOf="@+id/comida" />
-
-    <TextView
-        android:id="@+id/valorComida"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textSize="25dp"
-        android:textColor="@color/black"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/comida"
-        app:layout_constraintEnd_toStartOf="@+id/terminacionComida" />
 
     <TextView
         android:id="@+id/agua"

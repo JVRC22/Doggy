@@ -9,7 +9,8 @@
         android:id="@+id/fondo"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#33EB85EA"
+        android:background="@drawable/border"
+        android:backgroundTint="#1A9E9797"
         android:layout_margin="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -18,15 +19,15 @@
 
     <ImageView
         android:id="@+id/icono"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="#99FFFFFF"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.065"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@drawable/ic_baseline_home_24" />
+        tools:srcCompat="@drawable/ic_baseline_broadcast_on_personal_24" />
 
     <TextView
         android:id="@+id/nombreCasa"
