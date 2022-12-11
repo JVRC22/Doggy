@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Usuarios"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:id="@+id/Usuarios"/>
+
+    <item android:title="Casas"
+        android:icon="@drawable/ic_baseline_add_home_24"
+        android:id="@+id/Casas"/>
+
+    <item android:title="Relaciones"
+        android:icon="@drawable/ic_baseline_broadcast_on_personal_24"
+        android:id="@+id/Relaciones"/>
+
+    <item android:title="Info"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:id="@+id/Info"/>
+</menu>
