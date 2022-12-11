@@ -41,7 +41,7 @@
         app:srcCompat="@drawable/logo" />
 
     <ImageView
-        android:id="@+id/menu_lateral"
+        android:id="@+id/config"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:background="@drawable/border4"

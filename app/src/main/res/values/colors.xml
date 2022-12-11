@@ -14,4 +14,12 @@
     <color name="rosa">#EB85EA</color>
     <color name="rojo">#CF1E26</color>
     <color name="verdeWhatsapp">#00BB2D</color>
+
+    <color name="naranjaSensor">#E97217</color>
+    <color name="azulSensor">#5D86D6</color>
+    <color name="cafeSensor">#573D21</color>
+    <color name="amarilloSensor">#F6BD10</color>
+    <color name="verdeSensor">#388F12</color>
+    <color name="celesteSensor">#0AA5A5</color>
+
 </resources>

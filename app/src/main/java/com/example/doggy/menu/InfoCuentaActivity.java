@@ -1,4 +1,4 @@
-package com.example.doggy.admin;
+package com.example.doggy.menu;
 
 import android.os.Bundle;
 import android.view.View;
@@ -8,11 +8,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.doggy.R;
 
-public class AdminActivity extends AppCompatActivity implements View.OnClickListener {
+public class InfoCuentaActivity extends AppCompatActivity implements View.OnClickListener {
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin);
+        setContentView(R.layout.activity_info_cuenta);
     }
 
     @Override

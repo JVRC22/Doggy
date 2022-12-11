@@ -40,6 +40,11 @@
         </activity>
 
         <activity
+            android:name=".register.RegisterActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
             android:name=".register.VerificarCorreoActivity"
             android:exported="false">
         </activity>
@@ -51,6 +56,21 @@
 
         <activity
             android:name=".register.ActivarCuentaActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".menu.ConfigActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".menu.InfoCuentaActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".admin.AdminActivity"
             android:exported="false">
         </activity>
     </application>
