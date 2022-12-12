@@ -73,6 +73,16 @@
             android:name=".admin.AdminActivity"
             android:exported="false">
         </activity>
+
+        <activity
+            android:name=".admin.AgregarCasaActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".admin.AgregarRelacionActivity"
+            android:exported="false">
+        </activity>
     </application>
 
 </manifest>
