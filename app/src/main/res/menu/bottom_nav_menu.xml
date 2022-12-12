@@ -9,10 +9,10 @@
         android:id="@+id/Casas"/>
 
     <item android:title="Relaciones"
-        android:icon="@drawable/ic_baseline_broadcast_on_personal_24"
+        android:icon="@drawable/ic_baseline_connect_without_contact_24"
         android:id="@+id/Relaciones"/>
 
-    <item android:title="Info"
+    <item android:title="Configuracion"
         android:icon="@drawable/ic_baseline_settings_24"
-        android:id="@+id/Info"/>
+        android:id="@+id/Configuracion"/>
 </menu>
